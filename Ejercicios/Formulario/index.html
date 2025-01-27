@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Formulario</title>
+</head> 
+<body>
+    <form action="">
+        <p>Formulario de contacto</p>
+        <div class="form_input">
+            <label for="">Nombre completo
+                <input type="text" placeholder="Carlos Jadir">
+            </label>
+        </div>
+        <div class="form_input">
+            <label for="">Email
+                <input type="email" placeholder="Carlos Jadir">
+            </label>
+        </div>
+        <div class="form_input">
+            <select name="type-of-user" id="">
+                <option value="user1">Opcion 1</option>
+                <option value="user1">Opcion 2</option>
+                <option value="user1">Opcion 3</option>
+            </select>
+        </div>
+
+        <div class="form_input">
+            <input list="referente" name="referente">
+            <datalist name="type-of-user" id="referente">
+                <option value="admin">Yo mero una descripcion</option>
+                <option value="user1">Opcion 2</option>
+                <option value="user1">Opcion 3</option>
+            </datalist>
+        </div>
+        <div class="form_input">
+            <label for="">Mensaje
+                <textarea name="" iad="" rows="8" placeholder="Deja tu mensaje..."></textarea>
+            </label>
+        </div>
+    </form>
+</body>
+</html>
