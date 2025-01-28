@@ -1,0 +1,32 @@
+form{
+    background-color: #333;
+    width: 70vw;
+    border-radius: 15px;
+    color: #ededed;
+    font-family: sans-serif;
+    margin: auto;
+}
+
+p{
+    font-size: 18px;
+    padding: 20px;
+    text-align: center;
+}
+
+.form_input{
+    padding: 10px 20px;
+}
+
+input,textarea,select{
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 5px;
+}
+
+option{
+    background-color: #222;
+}
+
+textarea{
+    font-family: sans-serif;
+}
