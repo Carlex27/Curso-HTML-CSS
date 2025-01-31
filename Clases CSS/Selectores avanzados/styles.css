@@ -1,0 +1,24 @@
+/*COMENTARIOS DE CSS*/
+
+img[src$="png"]{
+    width: 80%;
+}
+
+
+/*SELECTOR POR ATRIBUTO*/
+ul li{
+    color: red;
+}
+
+/*SELECTOR POR HIJO DIRECTO*/
+ul > strong{
+    color: aqua;
+}
+
+h1 + p{
+    color: blue;
+}
+
+h1 ~ p{
+    color: blue;
+}
